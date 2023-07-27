@@ -11,6 +11,16 @@
 		107ED5B42A72E25B00E3EE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5B32A72E25B00E3EE37 /* ContentView.swift */; };
 		107ED5B62A72E25B00E3EE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107ED5B52A72E25B00E3EE37 /* Assets.xcassets */; };
 		107ED5B92A72E25B00E3EE37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107ED5B82A72E25B00E3EE37 /* Preview Assets.xcassets */; };
+		107ED5C12A72E27300E3EE37 /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5C02A72E27300E3EE37 /* ContactCard.swift */; };
+		107ED5C52A72E38400E3EE37 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 107ED5C42A72E38400E3EE37 /* contacts.json */; };
+		107ED5C72A72E3C600E3EE37 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5C62A72E3C600E3EE37 /* Contact.swift */; };
+		107ED5C92A72E3D900E3EE37 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5C82A72E3D900E3EE37 /* Coordinates.swift */; };
+		107ED5CD2A72E48100E3EE37 /* ContactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5CC2A72E48100E3EE37 /* ContactStore.swift */; };
+		107ED5D02A72E71700E3EE37 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5CF2A72E71700E3EE37 /* CircleImage.swift */; };
+		107ED5D22A72E98C00E3EE37 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D12A72E98C00E3EE37 /* InfoView.swift */; };
+		107ED5D42A72EA8300E3EE37 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D32A72EA8300E3EE37 /* ColorConstants.swift */; };
+		107ED5D72A72EB4A00E3EE37 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D62A72EB4A00E3EE37 /* ContactList.swift */; };
+		107ED5DA2A72EB6600E3EE37 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D92A72EB6600E3EE37 /* ContactRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		107ED5B32A72E25B00E3EE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		107ED5B52A72E25B00E3EE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		107ED5B82A72E25B00E3EE37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		107ED5C02A72E27300E3EE37 /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		107ED5C42A72E38400E3EE37 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		107ED5C62A72E3C600E3EE37 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		107ED5C82A72E3D900E3EE37 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		107ED5CC2A72E48100E3EE37 /* ContactStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStore.swift; sourceTree = "<group>"; };
+		107ED5CF2A72E71700E3EE37 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		107ED5D12A72E98C00E3EE37 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		107ED5D32A72EA8300E3EE37 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		107ED5D62A72EB4A00E3EE37 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		107ED5D92A72EB6600E3EE37 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		107ED5B02A72E25B00E3EE37 /* RMIT-Contact */ = {
 			isa = PBXGroup;
 			children = (
+				107ED5C32A72E36D00E3EE37 /* Models */,
+				107ED5BF2A72E26500E3EE37 /* Views */,
 				107ED5B12A72E25B00E3EE37 /* RMIT_ContactApp.swift */,
 				107ED5B32A72E25B00E3EE37 /* ContentView.swift */,
 				107ED5B52A72E25B00E3EE37 /* Assets.xcassets */,
@@ -65,6 +87,54 @@
 				107ED5B82A72E25B00E3EE37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		107ED5BF2A72E26500E3EE37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				107ED5D82A72EB5B00E3EE37 /* ContactRow */,
+				107ED5D52A72EB3900E3EE37 /* ContactList */,
+				107ED5CE2A72E70500E3EE37 /* ContactCard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		107ED5C32A72E36D00E3EE37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				107ED5C42A72E38400E3EE37 /* contacts.json */,
+				107ED5C62A72E3C600E3EE37 /* Contact.swift */,
+				107ED5C82A72E3D900E3EE37 /* Coordinates.swift */,
+				107ED5CC2A72E48100E3EE37 /* ContactStore.swift */,
+				107ED5D32A72EA8300E3EE37 /* ColorConstants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		107ED5CE2A72E70500E3EE37 /* ContactCard */ = {
+			isa = PBXGroup;
+			children = (
+				107ED5C02A72E27300E3EE37 /* ContactCard.swift */,
+				107ED5CF2A72E71700E3EE37 /* CircleImage.swift */,
+				107ED5D12A72E98C00E3EE37 /* InfoView.swift */,
+			);
+			path = ContactCard;
+			sourceTree = "<group>";
+		};
+		107ED5D52A72EB3900E3EE37 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				107ED5D62A72EB4A00E3EE37 /* ContactList.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		107ED5D82A72EB5B00E3EE37 /* ContactRow */ = {
+			isa = PBXGroup;
+			children = (
+				107ED5D92A72EB6600E3EE37 /* ContactRow.swift */,
+			);
+			path = ContactRow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				107ED5B92A72E25B00E3EE37 /* Preview Assets.xcassets in Resources */,
+				107ED5C52A72E38400E3EE37 /* contacts.json in Resources */,
 				107ED5B62A72E25B00E3EE37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +208,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107ED5D22A72E98C00E3EE37 /* InfoView.swift in Sources */,
+				107ED5C72A72E3C600E3EE37 /* Contact.swift in Sources */,
 				107ED5B42A72E25B00E3EE37 /* ContentView.swift in Sources */,
 				107ED5B22A72E25B00E3EE37 /* RMIT_ContactApp.swift in Sources */,
+				107ED5DA2A72EB6600E3EE37 /* ContactRow.swift in Sources */,
+				107ED5D72A72EB4A00E3EE37 /* ContactList.swift in Sources */,
+				107ED5D02A72E71700E3EE37 /* CircleImage.swift in Sources */,
+				107ED5C12A72E27300E3EE37 /* ContactCard.swift in Sources */,
+				107ED5D42A72EA8300E3EE37 /* ColorConstants.swift in Sources */,
+				107ED5CD2A72E48100E3EE37 /* ContactStore.swift in Sources */,
+				107ED5C92A72E3D900E3EE37 /* Coordinates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
