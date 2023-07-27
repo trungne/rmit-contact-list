@@ -21,6 +21,7 @@
 		107ED5D42A72EA8300E3EE37 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D32A72EA8300E3EE37 /* ColorConstants.swift */; };
 		107ED5D72A72EB4A00E3EE37 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D62A72EB4A00E3EE37 /* ContactList.swift */; };
 		107ED5DA2A72EB6600E3EE37 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5D92A72EB6600E3EE37 /* ContactRow.swift */; };
+		107ED5DC2A72ED6300E3EE37 /* ContactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107ED5DB2A72ED6300E3EE37 /* ContactMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		107ED5D32A72EA8300E3EE37 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		107ED5D62A72EB4A00E3EE37 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		107ED5D92A72EB6600E3EE37 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		107ED5DB2A72ED6300E3EE37 /* ContactMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				107ED5C02A72E27300E3EE37 /* ContactCard.swift */,
 				107ED5CF2A72E71700E3EE37 /* CircleImage.swift */,
 				107ED5D12A72E98C00E3EE37 /* InfoView.swift */,
+				107ED5DB2A72ED6300E3EE37 /* ContactMap.swift */,
 			);
 			path = ContactCard;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				107ED5B42A72E25B00E3EE37 /* ContentView.swift in Sources */,
 				107ED5B22A72E25B00E3EE37 /* RMIT_ContactApp.swift in Sources */,
 				107ED5DA2A72EB6600E3EE37 /* ContactRow.swift in Sources */,
+				107ED5DC2A72ED6300E3EE37 /* ContactMap.swift in Sources */,
 				107ED5D72A72EB4A00E3EE37 /* ContactList.swift in Sources */,
 				107ED5D02A72E71700E3EE37 /* CircleImage.swift in Sources */,
 				107ED5C12A72E27300E3EE37 /* ContactCard.swift in Sources */,
