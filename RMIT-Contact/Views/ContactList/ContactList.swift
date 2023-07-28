@@ -20,7 +20,7 @@ struct ContactList: View {
                 } label: {
                     ContactRow(imageName: contact.imageName, name: contact.name)
                 }
-                .navigationTitle("RMIT Contact List")
+                .navigationTitle("Footballer Contacts")
             }
         }
     }

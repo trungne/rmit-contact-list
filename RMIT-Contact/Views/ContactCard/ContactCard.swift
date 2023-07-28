@@ -18,7 +18,7 @@ struct ContactCard: View {
                 .foregroundColor(.white)
                 .bold()
             
-            Image("rmit-logo-white")
+            Image("fifa-logo")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 150)

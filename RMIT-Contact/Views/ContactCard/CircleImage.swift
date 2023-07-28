@@ -16,7 +16,7 @@ struct CircleImage: View {
                 .scaledToFit()
                 .clipShape(Circle())
                 .overlay(
-                        RoundedRectangle(cornerRadius: 9999)
+                        Circle()
                             .stroke(.white, lineWidth: 4)
                     )
                 .padding()
@@ -28,6 +28,9 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(imageName: Contact.sampleData.imageName)
+        VStack {
+            CircleImage(imageName: Contact.sampleData.imageName)
+        }.background(.gray)
+        
     }
 }

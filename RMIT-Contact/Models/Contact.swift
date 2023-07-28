@@ -12,10 +12,10 @@ import CoreLocation
 
 struct Contact: Identifiable, Codable {
     static var sampleData = Contact(id: 1,
-                                    name: "Tom Huynh",
-                                    email: "tom.huynh@email.com",
+                                    name: "Lionel Messi",
+                                    email: "lionel.messi@email.com",
                                     phone: "012345678",
-                                    imageName: "tom-huynh",
+                                    imageName: "lionel-messi",
                                     coordinates: Coordinates.sampleData)
     
     let id: Int
