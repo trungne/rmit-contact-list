@@ -17,7 +17,7 @@ struct InfoView: View {
             .frame(height: 50.0)
             .overlay(HStack {
                 Image(systemName: sfImageName)
-                    .foregroundColor(ColorConstants.rmitRed)
+                    .foregroundColor(.blue)
                 
                 if let url = URL(string: link) {
                     Link(destination: url) {

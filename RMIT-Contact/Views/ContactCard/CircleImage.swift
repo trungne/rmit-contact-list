@@ -14,11 +14,14 @@ struct CircleImage: View {
             Image(imageName)
                 .resizable()
                 .scaledToFit()
-                .clipShape(Circle())
+                .clipShape(
+                    Circle()
+                )
+                
                 .overlay(
-                        Circle()
-                            .stroke(.white, lineWidth: 4)
-                    )
+                    Circle()
+                        .stroke(.white, lineWidth: 4)
+                )
                 .padding()
                 .frame(width: 200, height: 200)
                 
