@@ -10,6 +10,9 @@ import SwiftUI
 struct ContactCard: View {
     var contact: Contact
     
+    @State
+    var isShowingContactMap = false
+    
     var body: some View {
         VStack {
             CircleImage(imageName: contact.imageName)
@@ -26,10 +29,20 @@ struct ContactCard: View {
             InfoView(text: contact.email, sfImageName: "envelope.fill", link: "mailto:\(contact.email)")
             
             InfoView(text: contact.phone, sfImageName: "phone.fill", link: "tel:\(contact.phone)")
-                
+            
+            
+            Button(action: {
+                isShowingContactMap = true
+            }) {
+                Image(systemName: "map.fill")
+                    .font(.system(size: 60))
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.gray)
+        .sheet(isPresented: $isShowingContactMap) {
+            ContactMap(coordinate: contact.locationCoordinate)
+        }
     }
 }
 
